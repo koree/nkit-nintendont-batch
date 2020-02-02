@@ -2,6 +2,7 @@
 
 The author of this script takes NO responsibility for anything that happens when running it. 
 No software warranty is written or implied for this project.
+This script has no official affiliation with the official NKit project on gbatemp.net.
 
 **USE AT YOUR OWN RISK!!**
 
@@ -9,18 +10,18 @@ It is HIGHLY recommended that you make a copy of your 'games' folder before runn
 The script should be able to recover from common errors when converting to nkit.iso, but many cases have not been thoroughly tested. 
 
 ---INSTRUCTIONS---
-1. Download the release of the Nkit program (this script written for v1.4) from gbatemp, here: 
+1. Download the release of the Nkit program (this script written for v1.4) from gbatemp, here: https://gbatemp.net/download/nkit.36157/
 	- IT IS RECOMMENDED YOU DO NOT USE YOUR EXISTING NKIT FOLDER WITH THIS SCRIPT, DUE TO LACK OF TESTING WITH EXISTING CONFIGURATIONS
 2. Extract the NKit_v1.4.zip to a folder called 'nkit' on the root of your Nintendont drive
 3. Place the ProcessNintendont.bat file from this repo in your 'games' folder and double click it to run
 
 ---EXAMPLE FOLDER STRUCTURE FOR REFERENCE---
-Nkit:
-	F:\nkit\ConvertToNKit.exe
-Example Image to convert: 
-	F:\games\GameToConvert\game.iso
-Batch Script: 
-	F:\games\ProcessNintendont.bat
+- Nkit:
+	- F:\nkit\ConvertToNKit.exe
+- Example Image to convert: 
+	- F:\games\GameToConvert\game.iso
+- Batch Script: 
+	- F:\games\ProcessNintendont.bat
 	
 ---NOTES---
 - If this script believes a successful conversion to nkit.iso occurs, it will REPLACE the .iso in your 'games' folder
@@ -33,3 +34,4 @@ Batch Script:
 - Personal testing of Nintendont compatibility with nkit.iso is limited so far, so once again, use at your own risk. 
 - This script was tested on Windows 10 with standard tools like powershell, etc. This means most people should be able to use this without additional setup required on Win10. 
 	- If your setup is different, you will likely hit errors. 
+- This script will likely be made obsolete with future versions of Nkit, so check their page on gbatemp.net for updates. 
